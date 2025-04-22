@@ -29,7 +29,7 @@ NeuraQuiz is a multimodal AI assistant that automatically generates, explains, a
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/smit-ardeshana/neuraquiz.git
+git clone https://github.com/smit-6690/neuraquiz.git
 cd neuraquiz
 pip install -r requirements.txt
 ```
