@@ -35,48 +35,4 @@ git clone https://github.com/smit-6690/NeuraQuiz.git
 cd neuraquiz
 pip install -r requirements.txt
 
-## 🔐 Setup
-Create a secrets file for the Gemini API:
 
-toml
-Copy
-Edit
-# .streamlit/secrets.toml
-[general]
-GOOGLE_API_KEY = "your-gemini-api-key"
-💡 If running on Kaggle, you can load secrets using Kaggle Secrets.
-
-▶️ Run the App
-bash
-Copy
-Edit
-streamlit run streamlit_app.py
-📁 Project Structure
-Copy
-Edit
-neuraquiz/
-├── streamlit_app.py         # Main Streamlit application
-├── requirements.txt         # Python dependencies
-├── utils/                   # Helper functions and utilities
-├── .streamlit/secrets.toml  # API key configuration
-├── README.md                # Project documentation
-🧪 Example Use Cases
-👩‍🏫 Teachers generating quizzes from lesson PDFs or slides
-
-🎓 Students practicing MCQs and getting instant feedback
-
-🛠️ EdTech developers integrating GenAI-powered assessments into platforms
-
-📎 Resources
-Google Gemini API
-
-OpenAI Whisper
-
-Streamlit Documentation
-
-🛠️ Future Enhancements
-🗂️ Upload batch files for bulk quiz generation
-
-🔔 Notification and progress tracking system
-
-🌍 Multilingual support for content translation
